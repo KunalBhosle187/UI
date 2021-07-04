@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.lt-sidebar{
+    width: 15%;
+    height: 100vh;
+    box-shadow: gray 1px 0px 10px 1px;
+    background-color: white;
+    position: fixed;
+    
+}
+
+.lt-sidebar > .logo{
+    height: 18%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid whitesmoke;
+}
+
+
+.lt-sidebar > .menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: darkcyan ;
+}
+
+.lt-sidebar > .menu:hover{
+   color: black;
+   background-color: rgba(183, 212, 221, 0.808);
+   border-left: 5px solid rgb(106, 106, 230);
+}
+.lt-sidebar .menu > .icon {
+   font-size: 40px;   
+} 
+
+.rt-dashboard{
+    float: right;
+    width: 85%;
+    height: 100vh;
+  
+}
+.rt-dashboard > .header{
+    height: 18%;
+    width: 100%;
+    background-color: white;
+}
+.rt-dashboard > .dashboard_container{
+    background-color: whitesmoke;
+    width: 100%;
+    color: black;
+    padding: 30px;
+}
+.rt-dashboard .dashboard_container > .dashboard_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.rt-dashboard .dashboard_container > h5{
+   color: darkcyan;
+}
+
+.rt-dashboard .dashboard_container .dashboard_body> .center_body{
+    width: 70%;
+    height: 100vh;
+}
+
+.rt-dashboard .dashboard_container .dashboard_body .center_body > .insertUrl{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: gainsboro 0px 0px 10px 1px;
+    margin: 10px 0px;
+}
+
+.rt-dashboard .dashboard_container .dashboard_body .center_body  .insertUrl > input{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+::-webkit-input-placeholder{
+    font-weight: bold;
+    color: black;
+}
+.rt-dashboard .dashboard_container .dashboard_body .center_body > .output{
+    margin-top: 20px;
+}
+.rt-dashboard .dashboard_container .dashboard_body .center_body .output > .upload{
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    box-shadow: gainsboro 0px 0px 10px 1px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
