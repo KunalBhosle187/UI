@@ -3,6 +3,8 @@
     box-sizing: border-box;
 }
 
+/* .lt-sidebar */
+
 .lt-sidebar{
     width: 15%;
     height: 100vh;
@@ -13,7 +15,7 @@
 }
 
 .lt-sidebar > .logo{
-    height: 18%;
+    height: 120px;
     width: 100%;
     background-color: white;
     display: flex;
@@ -38,6 +40,8 @@
    font-size: 40px;   
 } 
 
+/* rt-dashboard */
+
 .rt-dashboard{
     float: right;
     width: 85%;
@@ -45,7 +49,7 @@
   
 }
 .rt-dashboard > .header{
-    height: 18%;
+    height: 120px;
     width: 100%;
     background-color: white;
 }
@@ -103,3 +107,15 @@
     align-items: center;
     font-weight: bold;
 }
+
+
+/* media */
+
+@media only screen and (max-width: 600px) {
+   .lt-sidebar > .menu{
+       font-size: 14px;
+   }
+   .lt-sidebar .menu > .icon {
+    font-size: 30px;   
+ } 
+  }
